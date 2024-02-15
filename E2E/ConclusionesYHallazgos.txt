@@ -1,0 +1,24 @@
+Conclusiones y Hallazgos:
+
+Durante la ejecución de la prueba automatizada E2E en Cypress utilizando el patrón de diseño Page Object Model y la programación orientada a objetos, se realizaron las siguientes observaciones y se aplicaron los principios SOLID:
+
+Observaciones:
+
+Se implementó el patrón de diseño Page Object Model (POM), lo que permitió organizar de manera estructurada y modularizada los elementos de la interfaz de usuario y las acciones relacionadas en clases separadas. Esto facilitó la reutilización del código, mejoró la legibilidad y mantenibilidad, y promovió una estructura clara y coherente en las pruebas.
+
+Se realizaron validaciones exhaustivas para garantizar la correcta navegación y funcionalidad de la aplicación. Se verificaron los títulos de página, asegurando que se mostraran correctamente y confirmaran la carga adecuada de las páginas esperadas. También se validaron las URL para asegurarse de que la navegación estuviera redirigiendo a las páginas correctas, verificando la presencia de rutas específicas.
+
+Se realizaron validaciones de disponibilidad de productos, verificando que la cantidad de productos en la página coincidiera con la cantidad esperada. Esto fue crucial para asegurar que los productos estuvieran disponibles para su selección y compra, garantizando el correcto funcionamiento del proceso de compra.
+
+Se llevaron a cabo validaciones de precios de productos para asegurar que los precios mostrados en la página fueran correctos y coherentes. Esto ayudó a verificar la precisión de los precios y a proporcionar una experiencia confiable y precisa a los usuarios.
+
+También se realizaron validaciones del costo total de la compra para asegurarse de que todos los elementos relevantes, como precios de productos, impuestos y costos adicionales, se tuvieran en cuenta en el cálculo del costo total. Esto garantizó que el costo final mostrado reflejara correctamente los elementos seleccionados y los cálculos realizados, brindando información precisa sobre el costo final de la compra.
+
+
+Principio de Responsabilidad Única (SRP): Cada clase del Page Object Model se diseñó con una única responsabilidad, lo que permitió una funcionalidad clara y coherente.
+
+Principio de Abierto/Cerrado (OCP): El código se diseñó para ser abierto a la extensión pero cerrado a la modificación, facilitando futuros cambios.
+
+
+En resumen, durante la ejecución de la prueba automatizada E2E se realizaron una variedad de validaciones, incluyendo la verificación de títulos de página, URLs, disponibilidad de productos, precios de productos y costo total de la compra. Estas verificaciones ayudaron a garantizar la precisión y consistencia de la aplicación, así como la correcta funcionalidad de los flujos de navegación y procesos de compra. Además, la implementación del patrón de diseño Page Object Model y la aplicación de los principios SOLID contribuyeron a una estructura de código modular, mantenible y escalable.
+
